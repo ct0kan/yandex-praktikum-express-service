@@ -1,0 +1,23 @@
+{
+  "name": "yandex-praktikum-express-service",
+  "version": "1.0.0",
+  "description": "Домашний проект сервиса с рейтингом",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ct0kan/yandex-praktikum-express-service"
+  },
+  "author": "ct0kan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  }
+}
